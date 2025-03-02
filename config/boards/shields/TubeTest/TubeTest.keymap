@@ -12,8 +12,18 @@
         &kp TAB           &kp Q      &kp W  &kp E         &kp R      &kp T           &kp LEFT_BRACKET      
         &kp CAPSLOCK      &kp A      &kp S  &kp D         &kp F      &kp G           &kp PRINTSCREEN       
         &kp LSHIFT        &kp Z      &kp X  &kp C         &kp V      &kp B           &kp ENTER             
+        &kp LEFT_CONTROL  &tog 1     &none  &kp LEFT_ALT  &kp LWIN   &kp BACKSPACE   &kp SPACE             
+            >;
+        };
+layer_0 {
+            bindings = <
+        &kp ESCAPE        &kp N1     &kp N2 &kp N3        &kp N4     &kp N5          &bootloader  
+        &kp TAB           &kp Q      &kp W  &kp E         &kp R      &kp T           &kp LEFT_BRACKET      
+        &kp CAPSLOCK      &kp A      &kp S  &kp D         &kp F      &kp G           &kp PRINTSCREEN       
+        &kp LSHIFT        &kp Z      &kp X  &kp C         &kp V      &kp B           &kp ENTER             
         &kp LEFT_CONTROL  &none      &none  &kp LEFT_ALT  &kp LWIN   &kp BACKSPACE   &kp SPACE             
             >;
         };
+
     };
 };
