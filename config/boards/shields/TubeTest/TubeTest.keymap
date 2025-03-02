@@ -12,7 +12,7 @@
         &kp TAB           &kp Q      &kp W  &kp E         &kp R      &kp T           &kp LEFT_BRACKET      
         &kp CAPSLOCK      &kp A      &kp S  &kp D         &kp F      &kp G           &kp PRINTSCREEN       
         &kp LSHIFT        &kp Z      &kp X  &kp C         &kp V      &kp B           &kp ENTER             
-        &kp LEFT_CONTROL  &tog 0     &tog 1 &kp LEFT_ALT  &kp LWIN   &kp BACKSPACE   &kp SPACE             
+        &kp LEFT_CONTROL  &tog 1     &tog 2 &kp LEFT_ALT  &kp LWIN   &kp BACKSPACE   &kp SPACE             
             >;
         };
 layer_0 {
@@ -21,7 +21,7 @@ layer_0 {
         &kp TAB           &kp Q      &kp W  &kp E         &kp R      &kp T           &kp LEFT_BRACKET      
         &kp CAPSLOCK      &kp A      &kp S  &kp D         &kp F      &kp G           &kp PRINTSCREEN       
         &kp LSHIFT        &kp Z      &kp X  &kp C         &kp V      &kp B           &kp ENTER             
-        &kp LEFT_CONTROL  &tog 0     &tog 1 &kp LEFT_ALT  &kp LWIN   &kp BACKSPACE   &kp SPACE             
+        &kp LEFT_CONTROL  &tog 1     &tog 2 &kp LEFT_ALT  &kp LWIN   &kp BACKSPACE   &kp SPACE             
             >;
         };
 
@@ -31,7 +31,7 @@ layer_1 {
         &none             &none        &none        &none         &none        &none           &none        
         &none             &none        &none        &none         &none        &none           &none          
         &none             &none        &none        &none         &none        &none           &none             
-        &none             &tog 0       &tog 1       &none         &none        &none           &none             
+        &none             &tog 1       &tog 2       &none         &none        &none           &none             
             >;
         };
     };
