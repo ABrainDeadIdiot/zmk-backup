@@ -8,30 +8,30 @@
 
         default_layer {
             bindings = <
-        &kp ESCAPE        &kp N1     &kp N2 &kp N3        &kp N4     &kp N5          &kp LEFT_PARENTHESIS  
-        &kp TAB           &kp Q      &kp W  &kp E         &kp R      &kp T           &kp LEFT_BRACKET      
-        &kp CAPSLOCK      &kp A      &kp S  &kp D         &kp F      &kp G           &kp PRINTSCREEN       
-        &kp LSHIFT        &kp Z      &kp X  &kp C         &kp V      &kp B           &kp ENTER             
-        &kp LEFT_CONTROL  &mo 1      &mo 2  &kp LEFT_ALT  &kp LWIN   &kp BACKSPACE   &kp SPACE             
+        &kp ESCAPE        &kp N1     &kp N2 &kp N3        &kp N4     &kp N5          &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &kp N6     &kp N7     &kp N8        &kp N9     &kp N0          &kp ESCAPE  
+        &kp TAB           &kp Q      &kp W  &kp E         &kp R      &kp T           &kp LEFT_BRACKET          &kp RIGHT_BRACKET      &kp Y      &kp U      &kp I         &kp O      &kp P           &kp TAB
+        &kp CAPSLOCK      &kp A      &kp S  &kp D         &kp F      &kp G           &kp PRINTSCREEN           &kp PRINTSCREEN        &kp H      &kp J      &kp K         &kp L      &kp SEMI        &kp CAPSLOCK
+        &kp LSHIFT        &kp Z      &kp X  &kp C         &kp V      &kp B           &kp ENTER                 &kp ENTER              &kp N      &kp M      &kp COMMA     &kp DOT    &kp FSLH        &kp RSHIFT
+        &kp LEFT_CONTROL  &mo 1      &mo 2  &kp LEFT_ALT  &kp LWIN   &kp BACKSPACE   &kp SPACE                 &kp SPACE              &kp BSPC   &kp LWIN   &kp RIGHT_ALT &mo 2      &mo 1           &kp RIGHT_CONTROL
             >;
         };
 layer_0 {
             bindings = <
-        &kp ESCAPE        &kp F1     &kp F2 &kp F3        &kp F4     &kp F5          &bootloader  
-        &kp TAB           &kp Q      &kp W  &kp E         &kp R      &kp T           &kp LEFT_BRACKET      
-        &kp CAPSLOCK      &kp A      &kp S  &kp D         &kp F      &kp G           &kp PRINTSCREEN       
-        &kp LSHIFT        &kp Z      &kp X  &kp C         &kp V      &kp B           &kp ENTER             
-        &kp LEFT_CONTROL  &mo 1      &mo 2  &kp LEFT_ALT  &kp LWIN   &kp BACKSPACE   &kp SPACE             
+        &bootloader       &kp F1     &kp F2 &kp F3        &kp F4     &kp F5          &kp F6                    &kp F7                 &kp F8     &kp F9     &kp F10       &kp F11    &kp F12         &bootloader
+        &kp TAB           &kp Q      &kp W  &kp E         &kp R      &kp T           &kp LEFT_BRACKET          &kp RIGHT_BRACKET      &kp Y      &kp U      &kp I         &kp O      &kp P           &kp TAB
+        &kp CAPSLOCK      &kp A      &kp S  &kp D         &kp F      &kp G           &kp PRINTSCREEN           &kp PRINTSCREEN        &kp H      &kp J      &kp K         &kp L      &kp SEMI        &kp CAPSLOCK
+        &kp LSHIFT        &kp Z      &kp X  &kp C         &kp V      &kp B           &kp ENTER                 &kp ENTER              &kp N      &kp M      &kp COMMA     &kp DOT    &kp FSLH        &kp RSHIFT
+        &kp LEFT_CONTROL  &mo 1      &mo 2  &kp LEFT_ALT  &kp LWIN   &kp BACKSPACE   &kp SPACE                 &kp SPACE              &kp BSPC   &kp LWIN   &kp RIGHT_ALT &mo 2      &mo 1           &kp RIGHT_CONTROL
             >;
         };
 
 layer_1 {
             bindings = <
-        &bt BT_CLR        &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3 &bt BT_SEL 4    &bt BT_CLR_ALL    
-        &none             &none        &none        &none         &none        &none           &none        
-        &none             &none        &none        &none         &none        &none           &none          
-        &none             &none        &none        &none         &none        &none           &none             
-        &none             &mo 1        &mo 2        &none         &none        &none           &none             
+        &bt BT_CLR        &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3 &bt BT_SEL 4    &bt BT_CLR_ALL            &none             &none        &none        &none         &none        &none           &none        
+        &none             &none        &none        &none         &none        &none           &none                     &none             &none        &none        &none         &none        &none           &none        
+        &none             &none        &none        &none         &none        &none           &none                     &none             &none        &none        &none         &none        &none           &none        
+        &none             &none        &none        &none         &none        &none           &none                     &none             &none        &none        &none         &none        &none           &none        
+        &none             &mo 1        &mo 2        &none         &none        &none           &none                     &none             &none        &none        &none         &none        &none           &none        
             >;
         };
     };
